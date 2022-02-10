@@ -29,6 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT := 1080
+XDROID_MAINTAINER := Luigiee
 
 #
 # All components inherited here go to system_ext image
