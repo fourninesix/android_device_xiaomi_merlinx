@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/xdroid_merlinx.mk
+   $(LOCAL_DIR)/komodo_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_merlinx-user \
-    xdroid_merlinx-userdebug \
-    xdroid_merlinx-eng
+    komodo_merlinx-user \
+    komodo_merlinx-userdebug \
+    komodo_merlinx-eng

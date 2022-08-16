@@ -25,7 +25,7 @@ $(call inherit-product, vendor/xiaomi/merlinx/merlinx-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-xd
+    $(DEVICE_PATH)/overlay-komodo
 
 # Audio
 PRODUCT_COPY_FILES += \
