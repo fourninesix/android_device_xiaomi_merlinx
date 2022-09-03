@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -52,3 +52,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="merlin-user 12 SP1A.210812.0
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Redmi/merlin/merlin:12/SP1A.210812.016/V13.0.1.0.SJOMIXM:user/release-keys
+
+# Xdroid Flag
+XDROID_MAINTAINER := Luigiee
